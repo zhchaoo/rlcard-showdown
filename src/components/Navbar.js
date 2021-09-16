@@ -20,15 +20,6 @@ function Navbar({subtitleMap}) {
 
     return (
         <AppBar position="fixed" className={"header-bar-wrapper"}>
-            <div className={"header-bar"}>
-                <Link to="/leaderboard"><img src={logo_white} alt={"Logo"} height="65px" /></Link>
-                <div className={"title unselectable"}><div className={"title-text"}>Showdown<span className={"subtitle"}>{subtitle ? '/ ' + subtitle : ''}</span></div></div>
-                <div className={"stretch"} />
-                <div className={"github-info"} onClick={()=>{window.location.href = 'https://github.com/datamllab/rlcard'}}>
-                    <div className={"github-icon"}><GitHubIcon /></div>
-                    <div className={"github-text"}>Github<br /><span>{stars} stars</span></div>
-                </div>
-            </div>
         </AppBar>
         )
 
