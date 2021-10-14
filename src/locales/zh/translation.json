@@ -4,10 +4,10 @@
     "play_again": "再来一局",
     "cancel": "取消",
     "turn": "回合",
-    "reset": "重置",
+    "reset": "重置分数",
 
     "doudizhu": {
-        "ai_hand_faceup": "偷窥AI!^_^",
+        "ai_hand_faceup": "偷窥AI的牌",
         "play_as_landlord": "扮演地主",
         "play_as_peasant": "扮演农民",
         "landlord_up": "地主上家",
@@ -20,7 +20,7 @@
         "total": "全部",
         "win_rate": "胜率",
         "three_landlord_cards": "地主牌",
-        "ai_thinking_time": "快点吧，花儿都谢了",
+        "ai_thinking_time": "AI出牌时限",
         "landlord": "地主",
         "expected_win_rate": "预计胜率",
         "pass": "不出",
